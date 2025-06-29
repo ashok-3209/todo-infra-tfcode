@@ -4,7 +4,7 @@ resource_groups = {
     location = "West US"
   }
 
-########Added new RG into TODO Infra###
+########Added new RG into TODO Infra######
   rg1 = {
     name     = "AZTODO-Dev-RG",
     location = "East US"
@@ -13,6 +13,7 @@ resource_groups = {
 
 vnets = {
   vnet1 = { name = "aznptodo-vnet", rg = "rg1", location = "West US", address_space = ["10.0.0.0/16"] }
+  vnet2 = { name = "azdevtodo-vnet", rg = "rg2", location = "East US", address_space = ["10.0.1.0/16"] }
 }
 
 subnets = {
