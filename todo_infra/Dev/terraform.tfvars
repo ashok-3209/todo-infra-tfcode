@@ -3,6 +3,12 @@ resource_groups = {
     name     = "AZTODO-NP-RG",
     location = "West US"
   }
+
+########Added new RG into TODO Infra###
+  rg1 = {
+    name     = "AZTODO-Dev-RG",
+    location = "East US"
+  }
 }
 
 vnets = {
